@@ -1,0 +1,26 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --watch server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LazizbekDev/chat.git"
+  },
+  "keywords": [
+    "socket"
+  ],
+  "author": "Lazizbek Tojiboev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LazizbekDev/chat/issues"
+  },
+  "homepage": "https://github.com/LazizbekDev/chat#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.6.1"
+  }
+}
